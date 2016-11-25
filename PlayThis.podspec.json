@@ -21,7 +21,7 @@
         "tag": "1.0.0"
     },
     "source_files": ["Source Code/*.{h,m}"],
-    "frameworks": ["Foundation", "AVFoundation"]
+    "frameworks": ["Foundation", "AVFoundation"],
     "dependencies": {},
     "requires_arc": true
 }
