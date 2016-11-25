@@ -17,7 +17,7 @@
 #import <Foundation/Foundation.h>
 
 /**
- * Main interface for sound playback. Sounds are predefined in an enum FLSound.
+ * Main interface for sound playback.
  * This class has a simple interface to play, loop and stop sounds and check if a sound is being played or looped.
  * Multiple sounds can be played at once. However one same sound cannot be played multple times at once.
  **/
