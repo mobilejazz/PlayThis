@@ -36,13 +36,14 @@
         _soundEngines = [NSMutableDictionary dictionary];
         _soundFilePaths = [NSMutableDictionary dictionary];
         
+#if TARGET_OS_IPHONE
         NSError *error = nil;
         [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient error:&error];
-        
         if (error)
         {
             NSLog(@"AVAudioSession Error: %@", error.description);
         }
+#endif
     }
     return self;
 }
